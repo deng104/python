@@ -5,7 +5,7 @@ from tkinter import *
 
 class Model:
   """
-  核心数据类，维护一个矩阵
+  核心数据类，维护一个矩阵.
   """
   def __init__(self,row,col): 
     self.width=col
@@ -30,7 +30,7 @@ class Model:
     
   def countValue(self,r,c,value):
     """
-    统计某个位置周围8个位置中，值为value的个数
+    统计某个位置周围8个位置中，值为value的个数.
     """
     count=0
     if r-1>=0 and c-1>=0:
