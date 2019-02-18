@@ -7,7 +7,7 @@ class Model:
   """
   核心数据类，维护一个矩阵
   """
-  def __init__(self,row,col):
+  def __init__(self,row,col): 
     self.width=col
     self.height=row
     self.items=[[0 for c in range(col)] for r in range(row)]
