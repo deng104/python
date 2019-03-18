@@ -1,5 +1,5 @@
 li = [7,5,4,6,3,8,2,9,1]
-
+ 
 # 冒泡排序
 # 时间复杂度: O(n^2)
 # 空间复杂度: O(1)
@@ -66,4 +66,3 @@ def QuickSort(li, left, right):
 		QuickSort(li, mid+1, right)
 QuickSort(li, 0, len(li)-1)
 print(li)
-
